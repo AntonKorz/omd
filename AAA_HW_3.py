@@ -31,5 +31,5 @@ class CountVectorizer:
 
 
 a = CountVectorizer()
-print(a.fit_transform(['anton is walking', 'my name is anton korz anton', 'his name is tony', 'is this tasty']))
+print(a.fit_transform(['Crock Pot Pasta Never boil pasta again', 'Pasta Pomodoro Fresh ingredients Parmesan to taste']))
 a.get_feature_names()
