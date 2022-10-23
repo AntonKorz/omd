@@ -32,6 +32,5 @@ class CountVectorizer:
 
 if __name__ == "__main__":
     a = CountVectorizer()
-    print(a.fit_transform(
-        ['Crock Pot Pasta Never boil pasta again', 'Pasta Pomodoro Fresh ingredients Parmesan to taste']))
+    print(a.fit_transform(['Crock Pot Pasta Never boil pasta again', 'Pasta Pomodoro Fresh ingredients Parmesan to taste']))
     a.get_feature_names()
